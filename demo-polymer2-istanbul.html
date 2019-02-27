@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="demo-polymer2-istanbul">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `demo-polymer2-istanbul`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class DemoPolymer2Istanbul extends Polymer.Element {
+      static get is() { return 'demo-polymer2-istanbul'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'demo-polymer2-istanbul'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(DemoPolymer2Istanbul.is, DemoPolymer2Istanbul);
+  </script>
+</dom-module>

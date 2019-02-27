@@ -1,0 +1,22 @@
+{
+  "name": "demo-polymer2-istanbul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "wct-istanbub": "^0.2.9",
+    "web-component-tester": "^6.9.2",
+    "web-component-tester-istanbul": "^0.10.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  },
+  "scripts": {
+    "test": "wct"
+  },
+  "author": "",
+  "license": "MIT"
+}
