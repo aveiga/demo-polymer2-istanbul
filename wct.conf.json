@@ -1,25 +1,17 @@
 {
-  "suites": [
-    "test/demo-polymer2-istanbul_test.html"
-  ],
+  "suites": ["test/index.html"],
   "plugins": {
-  	"local": {
-  	"disabled": false,
-  	      "browsers": ["chrome", "firefox"],
-  	      "browserOptions": {
-  	        "chrome": ["window-size=1920,1080", "headless", "disable-gpu"],
-  	        "firefox": ["--headless"]
-  	      }
- 	},
+    "local": {
+      "disabled": false,
+      "browsers": ["chrome", "firefox"],
+      "browserOptions": {
+        "chrome": ["window-size=1920,1080", "headless", "disable-gpu"],
+        "firefox": ["--headless"]
+      }
+    },
     "istanbub": {
-      "reporters": [
-        "text-summary",
-        "lcov"
-      ],
-      "include": [
-        "*.js",
-        "*.html"
-      ],
+      "reporters": ["text-summary", "lcov"],
+      "include": ["*.js", "*.html"],
       "exclude": []
     }
   }
