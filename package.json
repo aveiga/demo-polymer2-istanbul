@@ -6,13 +6,11 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "wct-istanbub": "^0.2.9",
-    "web-component-tester": "^6.9.2",
-    "web-component-tester-istanbul": "^0.10.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "istanbul": "^0.4.5"
+    "istanbul": "^0.4.5",
+    "wct-istanbub": "^0.2.9",
+    "web-component-tester": "^6.9.2"
   },
   "scripts": {
     "test": "wct"
